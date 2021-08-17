@@ -1,0 +1,87 @@
+.content {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.container {
+    width: 75vw;
+    height: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.textinput {
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid;
+    border-radius: 60px;
+    padding: 10px;
+
+}
+
+.button {
+    cursor: auto;
+}
+
+.buttonRender {
+    width: 180px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(90, 99, 180);
+    border-radius: 60px;
+    padding: 10px;
+
+}
+
+.buttonType {
+    width: 180px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(90, 99, 180); 
+    border-radius: 60px;
+    padding: 10px;
+}
+
+.buttonRender:hover {
+      background: darken(#000, 5%);
+      color: mix(white, #000, 85%);
+    }
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+.footer {
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(90, 99, 180);
+    color: white;
+    text-align: center;
+}
+
+.button {  
+  color: #a972cb;
+  transition: 0.25s;
+} 
+button:hover,
+button:focus { 
+    border-color: adjust-hue(rgb(84, 66, 185), 45deg);
+    color: #fff;
+}
+
+.buttonRender:hover,
+.buttonRender:focus {
+  box-shadow: inset 0 0 0 2em rgb(90, 99, 180);
+}
